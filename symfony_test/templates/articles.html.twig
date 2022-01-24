@@ -1,0 +1,33 @@
+{% extends "bases.html.twig" %}
+
+{#
+La fonction include existe aussi dans les fichiers twig
+{% include "template" %}
+#}
+
+{% block main %}
+
+    {{parent()}}
+
+    {# commentaires dans les fichiers twig #}
+
+    < pré >
+            {{ parent ()}}
+
+
+            {# commentaires dans les fichiers twig #}
+
+            < pré >
+                    {{ dump ( articles ) }}
+            </ pré >
+
+            {% pour l'  article  dans les  articles %}
+
+                < h1 >{{ article . titre }}</ h1 >
+                < p >{{ article . contenu }}</ p >
+                < a href = " {{ path( " article " , { ' id ' : article . id }) }} " >Voir l'article</ a>
+                < heure >
+
+            {% endfor %}
+
+{% bloc final %}

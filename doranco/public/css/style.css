@@ -1,0 +1,56 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: inline-block;
+    margin: 20px 15px;
+}
+
+p {
+    margin: 10px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    width: 100px;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.card {
+    margin: 10px;
+    padding: 10px;
+    border: 1px #000 solid;
+    border-radius: 5px;
+}

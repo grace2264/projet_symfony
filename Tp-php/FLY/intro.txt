@@ -1,0 +1,15 @@
+PHP :
+    Le PHP est un langage de programmation (fonctionnel) à l'inverse des langages html et css qui sont plutôt de conception (structure et mise en forme de pages web).
+    Avec PHP nous pouvons faire tout type et il n'y a plus de limite : moteur de recherche
+    (type google), réseaux sociaux (type facebook), plateforme multimedia (type Youtube), dite d'information
+    (type wikipedia), boutique ecommerce (type amazon), petites annonces (type le bon coin), forum, blog, espace membre, etc.
+    ---------------------------------------------------------------------------------------------------------------------------------------
+    CAS D'UTILISATION:
+    Pour mieux comprendre, prenons le cas d'un formulaire :
+    1 formulaire est déclaré en html, il est mis en forme en css (html + css = conception),
+    mais si nous voulons récupérer et exploiter les saisies postées par l'internaute nous aurons besoin du PHP
+    qui est un langage permettant d'effectuer des traitements (et c'est bien là le principe, nous faisons un formulaire) 
+    pour récupérer des données !
+    Ensuite,si nous voulions sauvegarder ces données dans dans une base, nous aurons besoin du langage SQL.
+    - php permet par exemple d'enregistrer les saisies d'un formulaire (sans ça le formulaire ne fonctionne pas)
+    - php permet par exemple d'obtenir un site dynamique avec une interface front et une interface back.

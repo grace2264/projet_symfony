@@ -1,0 +1,187 @@
+// ----------------------------------------------------------------------------------------------------------------------- // 
+// ------------------------------------------------------- AFFICHAGE ----------------------------------------------------- //
+
+	// 00 AFFICHER "HELLO WORLD" AVEC UN SAUT A LIGNE
+
+        // ----------------------------------------------------------------------------------------------------------------------- // 
+// ------------------------------------------------------- AFFICHAGE ----------------------------------------------------- //
+
+	// 00 AFFICHER "HELLO WORLD" AVEC UN SAUT A LIGNE
+
+// ----------------------------------------------------------------------------------------------------------------------- // 
+// ---------------------------------------- VARIABLE / TYPE / DECLARATION / AFFECTATION ---------------------------------- //
+
+	01 CREER UNE VARIABLE QUI AFFICHE "HELLO WORLD" AVEC UN SAUT
+		// Une variable est un espace nommé permettant de conserver une valeur.
+		// Elle peut contenir des chiffres mais ne doit pas commencer par un chiffre.
+	
+	02 CREER PLUSIEURS VARIABLES ET AFFICHER LEURS TYPES AVEC UN SAUT
+		// Type attendu - INTEGER - DOUBLE - STRING - NULL - BOOLEAN  
+		// Utiliser les fonctions prédéfinies qui vous permettra de voir le type d'une variable et de l'afficher.
+
+	03 AFFECTER UN PRENOM A UNE VARIABLE, ASSIGNER PAR RÉFÉRENCE CETTE VARIABLE A UNE DEUXIEME VARIABLE, 
+	   ENSUITE AFFECTER "HELLO UN-PRENOM" A VOTRE DEUXIEME VARIABLE ET AFFICHER LA PREMIER VARIABLE AVEC 
+	   UN SAUT A LA LIGNE
+	   // Si on change la valeur d'une variable référé, on change egalement la valeur de celle qui est en référence.
+
+	04 CREER DEUX VARIABLES QUI CONTIENNENT UN NOM & UN PRENOM, AFFICHER LES VARIABLES AVEC "HELLO" EN 
+	   CONCATENANT & UN SAUT A LA LIGNE
+	   // Concaténation de texte et variable.
+
+	05 CREER UNE VARIABLE AVEC UN PRENOM, ENSUITE AFFECTER UN NOM A CETTE MÊME VARIABLE SANS EFFACER LE PRENOM
+	   ET AFFICHER LE RESULTA AVEC UN SAUT A LA LIGNE
+	   // Il est possible d'ajouter du contenu a une variable SANS remplacer la valeur précédente.
+
+	06 CREER UNE CONSTANTE "CAPITALE" EN LUI AFFECTANT "PARIS" ET AFFICHER LA AVEC UN SAUT A LA LIGNE
+		// Une constante tout comme une variable permet de conserver une valeur sauf que comme son nom l'indique, 
+		// la valeur est...constante! C'est à dire qu'on ne pourra pas la changer durant l'exécution du script.
+		// Contrairement à une variable qui elle peut... varier !! 
+		// Utile pour garder de manière certaine la connexion d'une BDD, le chemin vers le site, etc. par exemple".
+		// Par convention, une constante se déclare toujours en majuscule.
+
+	07 AFFICHER LE CHEMIN DE VOTRE FICHER "07-exo.php" GRACE A LA CONSTANTE MAGIQUE QUI VOUS PERMETTRA DE LE FAIRE
+	   PUIS AFFICHE LE NUMERO DE LA LIGNE SUR LAQUELLE VOUS ETE ENTRAIN D ECRIRE GRACE A UNE AUTRE CONSTANTE MAGIQUE
+	   N OUBLIEZ PAS VOS SAUT A LA LIGNE APRES CHAQUE AFFICHAGE 
+	   // EXEMPLE DE CONSTANTE MAGIQUE
+	   // __FUNCTION__ Affiche le nom de la fonction dans laquelle nous sommes.
+	   // __CLASS__ Affiche le nom de la class dans laquelle nous sommes.
+	   // __METHOD__ Affiche le nom de la méthode dans laquelle nous sommes.
+
+	 08 CREER UNE CONSTANTE "ANIMAL" AVEC UN ARRAY QUI CONTIENDRA UN CHIEN, UN CHAT, UN OISEAU
+	 	AFFICHER LES ANIMAUX QUE CONTIENT VOTRE ARRAY EN UNE LIGNE ! AVEC DES SAUTS A LA LIGNE APRES CHAQUE ANIMAL
+	 	// Nous pouvons créer des array en constante.
+
+	 09 AFFICHER "BLEU-BLANC-ROUGE" 3 FOIS DE FAÇON DIFFERENTE (AVEC LES TIRETS -) EN METANT CHAQUE COULEUR DANS UNE VARIALBE
+	 	(IL FAUT DEUX AFFICHAGE AVEC CONCATENATION DIFFERENTE ET UN TROISIEME AFFICHAGE DIFFERENT) 🤯
+
+
+// ----------------------------------------------------------------------------------------------------------------------- // 	
+// ----------------------------------------------- OPÉRATEUR ARITHMEÉTIQUE ----------------------------------------------- //
+
+	10 CREER DE DEUX VARIABLES QUI DOIVENT AVOIR DES VALEURS QUI VOUS PERMETTRA D OBTENIR 
+ 	    12 EN AFFICHANT LE RESULTAT DE LEURS ADDICTIONS AVEC UN SAUT A LA LIGNE
+ 	    8  EN AFFICHANT LE RESULTAT DE LEURS SOUSTRATIONS AVEC UN SAUT A LA LIGNE
+ 		20 EN AFFICHANT LE RESULTAT DE LEURS MULTIPLICATIONS AVEC UN SAUT A LA LIGNE
+ 		5 EN AFFICHANT LE RESULTAT DE LEURS DIVISIONS AVEC UN SAUT A LA LIGNE
+
+// ----------------------------------------------------------------------------------------------------------------------- // 	
+// --------------------------------------------------- CONDITIONNELLES --------------------------------------------------- //
+
+ 	11 TESTER SI UNE VARIABLE EST VIDE ET SI ELLE EST VIDE AFFICHER "Chaine vide"
+ 	   TEST UNE NOUVELLE VARIABLE AFIN DE SAVOIR SI ELLE EST DEFINIT ET SI C EST LE CAS AFFICHER "variable definit"
+ 	   // Tester des variables nous permettra plus tard de vérifier si un champ d'un formulaire est vide ou non.
+
+ 	12 VOUS DEVEZ AVOIR 4 VARIABLES PRENOM-NOM-EMAIL-PASSWORD AFFICHER LE MESSAGE "Formulaire validé" SI
+ 		TOUS LES CHAMPS SONT DEFINIT ET PAS VIDE, SI L UN DES CHAMPS EST VIDE OU PAS DEFINIT ON AFFICHE 
+ 		CHAMP "Erreur formulaire"
+
+ 	13 VOUS DEVEZ AVOIR 4 VARIABLES PRENOM-NOM-EMAIL-PASSWORD VERIFIER SI TOUS CHAQUE CHAMP A BIEN ETE REMPLI
+ 		SI UN EST VIDE OU PAS DEFINIT VOUS DEVEZ AFFICHER L ERREUR EN PRESCISANT LE CHAMP MANQUANT
+
+ 	14 EXACTEMENT LA MÊME CHOSE QUE L EXERCICE 11 MAIS EN TERNAIRE
+ 		// Parfois, vous allez intervenir sur du code qui aura été écrit par d'autres développeurs qui comporte du code en forme contracté,
+ 		// et qu'il faudra comprendre.
+ 	
+ 	15 CREER UNE VARIABLE ET AFFECTER LUI UNE COULEUR, PUIS GRACE AU SWITCH VERIFIER LA COULEUR 
+ 		SI LA COULEUR EST BLEU AFFICHER "Vous aimez le bleu"
+ 		SI LA COULEUR EST ROUGE AFFICHER "vous aimez le rouge"
+ 		SI LA COULEUR EST VERT AFFICHER "vous aimez le vert"
+ 		SI ON RENTRE DANS AUCUNE DE CES TROIS COULEURS ON AFFICHE 'Vous n\'aimez ni le bleu, ni le vert, ni le rouge...'
+
+ 	16 LA MEME CHOSE QUE LE 15 MAIS AVEC DES IF
+
+// ----------------------------------------------------------------------------------------------------------------------- // 	
+// --------------------------------------------------- FONCTIONS PREDEFINIES --------------------------------------------------- //
+
+	// Quand vous utilisez une fonction prédéfinie, vous devez toujours vous demandez ce que vous devez lui envoyer comme argument pour qu'elle 
+	// s'exécute et ce qu'elle peut retourner.
+
+ 	 17 RETOURNER UN SEGMENT DE CHAINE DE CARACTERE "de" AVEC UN SAUT A LA LIGNE QUI PROVIENT DE "abcdef"
+ 		// On peut se possitionner dans une chaine de caractere pour recupérer une ou plusieurs lettres
+ 	 	// Une fonction prédéfinie permet de réaliser un traitement spécifique.
+
+ 	 18 AFFICHER LA DATE DU JOURS GRACE A UNE FONCTION PREDEFINIE DATE AU FORMAT "DAY-MOIS-YEARS" AVEC UN SAUT A LA LIGNE
+ 	 	// la fonction prédéfinie date permettant de renvoyer la date 
+ 	 	// Une fonction prédéfinie permet de réaliser un traitement spécifique.
+
+ 	 19 CREER UNE VARIABLE QUI CONTIENT UN EMAIL ET AFFICHER LA POSITION DE "@" 
+ 	 	EXEMPLE "do@gmail.com" le @ est en postion 2
+ 	 	// position '2' du caractére "@" dans la chaine (2 et non pas 3 car cela commence à 0).
+
+
+ 	 20 AFFICHER LA TAILLE DE LA CHAINE DE CETTE PHRASE "Mettez une phrase ici à cet endroit"
+ 	 	// Il y a une fonction prédéfinie qui permet de retourner la taille d'une chaine. 
+ 	 	// nous devons lui fournir la chaine dans laquelle nous souhaitons connaitre la taille.
+	    // Contexte: Nous pourrons l'utiliser pour savoir si le pseudo et le mdp lors d'une inscription ont des tailles conforme.
+
+ 	 21 AFFICHER JUSTE "Lorem Ipsum is simply" DANS LE TEXT CI-DESSOU PUIS AJOUTER UN LIEN HTML POUR AFFICHER "lire la suite..." DE CE TEXT
+ 	 	" Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
+ 	 	  text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+ 	 	  It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.";
+ 	 	 // Il y a une fonction prédéfinie permettant de retourner une partie de la chaine.
+ 	 	 // Sur internet, il y a le début de l'article puis ...lire la suite. Pour ne pas couper un mot il y a d'autres fonction prédéfinie et parfois le texte affiché est un résumé et non le début de l'article.
+
+// ----------------------------------------------------------------------------------------------------------------------- // 	
+// --------------------------------------------- FONCTIONS UTILISATEUR --------------------------------------------------- //
+
+// Les fonctions qui ne sont pas prédéfinies dans le langage sont déclaré puis exécuté par l'utilisateur (Vous).
+
+ 	22 DECLARER UNE FUNCTION "hello" QUAND ON APPEL LA FONCTION CELLE-CI AFFICHE "hello world"
+
+ 	23 DECLARER UNE FUNCTION "hello" AVEC UN ARGUMENT "qui", QUAND ON APPEL HELLO AVEC UN AURGUMENT, LA FONCTION RETURN "Bonjour votre-argument" AVEC UN SAUT A LA LIGNE 
+ 	   // Les arguments sont des paramètres fournis à la fonction et lui permettent de compléter ou modifier son comportement initialement prévu.
+ 	   // L'argument permet de recevoir des données, il s'agit d'une variable de reception. 
+ 	   // Si la fonction peut reçevoir un argument, il faut lui envoyer un argument.
+ 	   // l'argument peut être une variable.
+ 	   // une fonction peut retourner qqchose (apres le return on quitte la fonction)
+
+ 	24*** POURRIEZ-VOUS AMELIORER LA FUNCTION CI-DESSOUS POUR QUE L ON PUISSE CALCULE UN NOMBRE AVEC LES TAUX DE NOTRE CHOIX (19.6%, 5.5%, 7%)
+ 		function appliqueTva($nombre){
+			return $nombre*1.2;
+		}
+	
+	25 25.1  - CREER UNE VARIABLE PAYS QUI CONTIENDRA "france" AVEC UN SAUT A LA LIGNE 
+	   25.2  - CREER UNE FONCTION "affichePays" QUI AFFICHE LE PAYS DE VOTRE VARIABLE QUAND VOUS L'APPELLEZ
+	   // Une variable en dehors d'une fonction n'est pas accessible
+	 
+  26 CREER UNE FUNCTION AVEC DEUX ARGUMENTS NOM & AGE EN PRÉCISENT LE TYPE DES VALEURS ENTRANTES DANS LES ARGUMENTS (STRING , INT)
+     APPELER VOTRE FUNCTION AVEC UN STRING ET UN INT ET RETURN LES VARIABLES
+
+// ----------------------------------------------------------------------------------------------------------------------- // 	
+// --------------------------------------------- STRUCTURE ITÉRATIVE ----------------------------------------------------- //
+
+    27 LA FUNCTION CI DESSOUS AFFICHE "0---1---2---". FAITE EN SORTE DE NE PAS AVOIR LE TIRET A LA FIN EXEMPLE : 0---1---2
+       AVEC UNE BOUCLE WHILE 
+      // while ($i<3)
+      // {
+      //  echo $i---;
+      //  $i++;
+      // }
+
+    28 CREER UNE BOUCLE FOR QUI AFFICHE 0 A 10 AVEC DES SAUTS A LA LIGNE.
+
+// ----------------------------------------------------------------------------------------------------------------------- // 	
+// --------------------------------------------- INCLUSION DE FICHIER ---------------------------------------------------- //
+
+    29 UTILISER LES FONCTIONS QUI VOUS PERMETTRONS D INCLURE DES FICHIERS EXEMPLE : INCLURE LE FICHIER "00-exo.php"
+       DANS LE FICHIER 29-EXO.PHP AVEC DEUX FONCTIONS DIFFERENTES
+
+// ----------------------------------------------------------------------------------------------------------------------- // 	
+// ------------------------------------------------------ ARRAY ---------------------------------------------------------- //
+
+    30 CREER UN ARRAY AVEC DES () ET INSERER 5 PRENOMS ENSUITE AFFICHER LE CONTENU DE VOTRE ARRAY
+    // Un tableau est déclaré un peu comme une variable améliorée, car on ne conserve pas qu'une valeur mais un ensemble de valeur.
+
+    31 CREER UN ARRAY AVEC DES [] ET INSERER 5 PRENOMS ENSUITE AFFICHER LE CONTENU DE VOTRE ARRAY
+    // Un tableau est déclaré un peu comme une variable améliorée, car on ne conserve pas qu'une valeur mais un ensemble de valeur.
+
+    32 CREER UN ARRAY 5 VALEURS ENSUITE ITERER VOTRE ARRAY POUR AFFICHER UNIQUEMENT LES VALEURS AVEC UN FOREACH
+
+    32 CREER UN ARRAY 5 VALEURS ENSUITE ITERER VOTRE ARRAY POUR AFFICHER LES KEYS ET VALEURS DE VOTRE ARRAY AVEC UN FOREACH
+
+
+
+
+
+
+

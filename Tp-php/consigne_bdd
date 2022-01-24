@@ -1,0 +1,29 @@
+Consigne créer une base de données à partir du formulaire.
+		1.	Modélisation et création
+				BDD : mini_tpMessage
+				Table : message
+							id_message 		// INT(3) PK - AI
+							pseudo 		   		// VARCHAR(20)
+							message		   		// TEXT
+							dateEnregistrement	// DATETIME
+		2. 	Connexion à la BDD (EN PDO) - https://www.w3schools.com/php/php_mysql_connect.asp
+		3.	Création d'un formulaire HTML (pour l'ajout de message)
+		4. 	Récupération et affichage des saisies en PHP (POST)
+		5.	Requete SQL d'enregistrement (INSERT et gestion des apostrophes)
+		6. 	Affichage des messages (SELECT, FETCH, FOREACH)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

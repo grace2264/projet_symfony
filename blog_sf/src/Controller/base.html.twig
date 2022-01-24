@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <meta  charset = " UTF-8 ">
+        < title >{% block  title %}Bienvenue !{% endblock %}</ title >
+        <tête link  rel = " icon "  href = " data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg> " >
+        {# Exécutez `composer require symfony/webpack-encore-bundle` pour commencer à utiliser Symfony UX #}
+        {% blocs de  feuilles de style %}
+            {{ encore_entry_link_tags( ' app ' ) }}
+        {% bloc final %}
+
+        {% bloquer les  javascripts %}
+            {{ encore_entry_script_tags( ' app ' ) }}
+        {% bloc final %}
+    </tête >
+    < corps >
+        {% corps du bloc  %} {% bloc final %}
+    </ corps >
+</ html >

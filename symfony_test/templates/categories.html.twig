@@ -1,0 +1,12 @@
+{% étend "bases.html.twig" %}
+
+{% bloc principal %}
+
+        {% pour la catégorie dans les categories %}
+                <h1>{{catégorie . nom}}</h1>
+                <p>{{catégorie . description}}</p>
+                <A href = " {{chemin ( ' category_show ', { ' id ' : catégorie . Id })}} " > Voir plus </A>
+                <heure>
+        {% endfor %}
+
+{% bloc final %}    
